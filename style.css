@@ -1,10 +1,10 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?rzp1i8");
-  src: url("../fonts/icomoon.eot?rzp1i8#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?rzp1i8") format("truetype"),
-    url("../fonts/icomoon.woff?rzp1i8") format("woff"),
-    url("../fonts/icomoon.svg?rzp1i8#icomoon") format("svg");
+  src: url("./fonts/icomoon.eot?wz9yoq");
+  src: url("./fonts/icomoon.eot?wz9yoq#iefix") format("embedded-opentype"),
+    url("./fonts/icomoon.ttf?wz9yoq") format("truetype"),
+    url("./fonts/icomoon.woff?wz9yoq") format("woff"),
+    url("./fonts/icomoon.svg?wz9yoq#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-logo_adobe_express-1:before {
+.icon-pets:before {
   content: "\e900";
+  font-size: 5rem;
 }

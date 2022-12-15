@@ -10,6 +10,7 @@ const LoadingMiPata = () => {
         src="/images/logoBlanco.png"
         width={100}
         height={100}
+        className={`animate__animated animate__fadeIn`}
       />
     </div>
   );

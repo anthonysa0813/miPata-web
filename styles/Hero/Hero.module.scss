@@ -1,0 +1,79 @@
+.heroContainer {
+  height: 700px;
+  // border: 2px solid brown;
+  background-image: url("/images/waves/wave.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    margin: 0;
+    color: var(--bg-dark);
+    font-size: 32px;
+  }
+  p {
+    color: var(--bg-gray300);
+    font-size: 16px;
+    span {
+      font-weight: bolder;
+      color: var(--bg-dark);
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  column-gap: 5rem;
+  // border: 2px solid brown;
+  height: 500px;
+  align-items: center;
+}
+
+.imageContainer {
+  // border: 2px solid brown;
+  display: none;
+  flex: 1 0 30%;
+  position: relative;
+  img {
+    position: absolute;
+    height: 500px;
+    width: 250px;
+    top: -100px;
+    left: 100px;
+    object-fit: contain;
+  }
+}
+
+.infoHero {
+}
+
+.buttonSocials {
+  display: flex;
+
+  column-gap: 1rem;
+  button {
+    background-color: black;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  img {
+    width: 150px;
+    height: 40px;
+    object-fit: contain;
+    // border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    display: block;
+  }
+
+  .heroContainer {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

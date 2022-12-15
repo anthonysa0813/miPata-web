@@ -1,0 +1,44 @@
+.header {
+  background-color: #f7852b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuSections {
+  ul {
+    list-style: none;
+    display: flex;
+    column-gap: 1rem;
+  }
+}
+
+.menuSocialsIcons {
+  ul {
+    list-style: none;
+    display: flex;
+    column-gap: 1rem;
+  }
+}
+
+.backgroundWhite {
+  background-color: var(--bg-white);
+}
+
+.textOrange {
+  color: var(--bg-orange);
+}
+
+.textWhite {
+  color: var(--bg-white);
+}
