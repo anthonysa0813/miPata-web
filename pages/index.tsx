@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 import LoadingMiPata from "../components/LoadingComponent/LoadingMiPata";
 import OurAppComponent from "../components/OurApp";
 import ServicesMiPata from "../components/ServicesMiPata";
-import styles from "../styles/Home.module.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +19,7 @@ export default function Home() {
 
   return (
     <>
-      <main className={styles.mainContainer}>
+      <main className="mainContainer">
         {loadingStatus && <LoadingMiPata />}
       </main>
       {!loadingStatus && (
