@@ -76,7 +76,30 @@
       height: 500px;
       width: 250px;
       top: 30%;
-      left: 100px;
+      left: 0;
+    }
+  }
+
+  .heroContainer {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    column-gap: 5rem;
+  }
+  .imageContainer {
+    display: block;
+    flex: 1 0 30%;
+
+    img {
+      height: 500px;
+      width: 250px;
+      top: 30%;
+      left: 10%;
     }
   }
 
