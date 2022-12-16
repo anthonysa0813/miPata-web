@@ -140,6 +140,14 @@
   flex-direction: column;
   row-gap: 0.5rem;
   width: 100%;
+  button {
+    background-color: var(--bg-dark);
+    color: var(--bg-white);
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--bg-gray300);
+  }
 }
 
 .form input {
