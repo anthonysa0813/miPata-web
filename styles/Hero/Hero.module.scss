@@ -44,19 +44,19 @@
   // border: 2px solid brown;
   height: 500px;
   align-items: center;
+  position: relative;
 }
 
 .imageContainer {
-  // border: 2px solid brown;
-
   // flex: 1 0 30%;
-  position: relative;
   img {
     position: absolute;
     height: 200px;
     width: 150px;
-    top: 200px;
-    left: 100px;
+    top: 90%;
+    left: 35%;
+    right: 25%;
+    bottom: 0;
     object-fit: contain;
   }
 }
@@ -75,7 +75,7 @@
     img {
       height: 500px;
       width: 250px;
-      top: -100px;
+      top: 30%;
       left: 100px;
     }
   }
