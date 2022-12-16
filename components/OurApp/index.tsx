@@ -86,8 +86,6 @@ const OurAppComponent = () => {
             alt="imagén de la aplicación de miPata"
             width={150}
             height={30}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
           />
         </button>
         <button>
@@ -96,8 +94,6 @@ const OurAppComponent = () => {
             alt="imagén de la aplicación de miPata"
             width={150}
             height={30}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
           />
         </button>
       </div>
