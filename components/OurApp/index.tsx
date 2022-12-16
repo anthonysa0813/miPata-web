@@ -3,9 +3,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCreative, Autoplay } from "swiper";
 import "swiper/css";
+import styles from "../../styles/OurApp/OurApp.module.scss";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import styles from "../../styles/OurApp/OurApp.module.scss";
 import Image from "next/image";
 import ButtonPrimary from "../Button/ButtonWithIcon";
 import { GrApple } from "react-icons/gr";
@@ -82,39 +82,22 @@ const OurAppComponent = () => {
         </Swiper>
       </div>
       <div className={styles.socialButtons}>
-        <ButtonPrimary>
-          <GrApple />
-          <p
-            className={styles.buttonText}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              margin: ".25rem",
-            }}
-          >
-            {/* <span>Disponible en el </span> */}
-            <span className={styles.text}>App Store</span>
-          </p>
-        </ButtonPrimary>
-        <ButtonPrimary>
-          {/* <AiFillAndroid /> */}
+        <button>
           <Image
-            src="/images/googleplay.png"
+            src="/images/appstore.png"
             alt="Logo de apple store"
-            width={20}
-            height={20}
+            width={100}
+            height={50}
           />
-          <p
-            className={styles.buttonText}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              margin: ".25rem",
-            }}
-          >
-            <span className={styles.text}>Play Store</span>
-          </p>
-        </ButtonPrimary>
+        </button>
+        <button>
+          <Image
+            src="/images/googleplayButton.png"
+            alt="Logo de apple store"
+            width={100}
+            height={30}
+          />
+        </button>
       </div>
     </div>
   );

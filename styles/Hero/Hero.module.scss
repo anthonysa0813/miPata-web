@@ -24,12 +24,17 @@
 .buttonSocials {
   display: flex;
   column-gap: 1rem;
-}
-
-.buttonSocials button:hover {
-  p,
-  span {
-    color: var(--bg-white);
+  button {
+    padding: 0;
+    background-color: transparent !important;
+    border: none;
+    &:nth-of-type(1) {
+      background: white;
+    }
+    img {
+      width: 130px;
+      height: 40px;
+    }
   }
 }
 

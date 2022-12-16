@@ -18,6 +18,7 @@
   flex-direction: column;
   column-gap: 2rem;
   align-items: center;
+  // justify-content: center;
 }
 
 // .serviceItem:nth-child(even) {
@@ -52,12 +53,18 @@
   svg {
     font-size: 70px;
   }
+  i {
+    width: 70%;
+    font-size: 5rem;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .serviceItem {
     width: 700px;
     flex-direction: row;
+    // justify-content: space-between;
   }
   .serviceItem:nth-child(even) {
     .content {

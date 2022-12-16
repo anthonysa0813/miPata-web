@@ -28,39 +28,22 @@ const Hero = () => {
               <span> mucho más </span>, <br /> pruebalo gratis:
             </p>
             <div className={styles.buttonSocials}>
-              <ButtonPrimary>
-                <GrApple />
-                <p
-                  className={styles.buttonText}
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    margin: ".25rem",
-                  }}
-                >
-                  {/* <span>Disponible en el </span> */}
-                  <span className={styles.text}>App Store</span>
-                </p>
-              </ButtonPrimary>
-              <ButtonPrimary>
-                {/* <AiFillAndroid /> */}
+              <button>
                 <Image
-                  src="/images/googleplay.png"
+                  src="/images/appstore.png"
                   alt="Logo de apple store"
-                  width={20}
-                  height={20}
+                  width={100}
+                  height={50}
                 />
-                <p
-                  className={styles.buttonText}
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    margin: ".25rem",
-                  }}
-                >
-                  <span className={styles.text}>Play Store</span>
-                </p>
-              </ButtonPrimary>
+              </button>
+              <button>
+                <Image
+                  src="/images/googleplayButton.png"
+                  alt="Logo de apple store"
+                  width={100}
+                  height={30}
+                />
+              </button>
             </div>
           </div>
         </div>

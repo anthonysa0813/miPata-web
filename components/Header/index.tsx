@@ -27,7 +27,7 @@ const Header = () => {
       <div className="wrapper">
         <div className={styles.headerContainer}>
           <h1 className={`${scrollY ? styles.textOrange : styles.textWhite}`}>
-            MiPata
+            miPata
           </h1>
           <div className={styles.menuSections}>
             <ul>

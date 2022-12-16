@@ -25,7 +25,7 @@ const ServicesMiPata = () => {
       <div className={styles.serviceItem}>
         <div className={styles.content}>
           <div className={styles.boxIcon}>
-            <MdPets />
+            <i className="icon-logo"></i>
           </div>
         </div>
         <div className={styles.infoServices}>
