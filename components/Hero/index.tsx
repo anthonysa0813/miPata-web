@@ -15,8 +15,6 @@ const Hero = () => {
               alt="imagén de la aplicación de miPata"
               width={600}
               height={400}
-              placeholder="blur"
-              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
             />
           </div>
           <div className={styles.infoHero}>
