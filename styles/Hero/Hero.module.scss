@@ -35,7 +35,7 @@
 
 .hero {
   display: flex;
-  column-gap: 5rem;
+  // column-gap: 5rem;
   // border: 2px solid brown;
   height: 500px;
   align-items: center;
@@ -43,14 +43,14 @@
 
 .imageContainer {
   // border: 2px solid brown;
-  display: none;
-  flex: 1 0 30%;
+
+  // flex: 1 0 30%;
   position: relative;
   img {
     position: absolute;
-    height: 500px;
-    width: 250px;
-    top: -100px;
+    height: 200px;
+    width: 150px;
+    top: 200px;
     left: 100px;
     object-fit: contain;
   }
@@ -60,8 +60,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    column-gap: 5rem;
+  }
   .imageContainer {
     display: block;
+    flex: 1 0 30%;
+
+    img {
+      height: 500px;
+      width: 250px;
+      top: -100px;
+      left: 100px;
+    }
   }
 
   .heroContainer {
