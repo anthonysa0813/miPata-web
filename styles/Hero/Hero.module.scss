@@ -63,7 +63,7 @@
 .imageContainer {
   // flex: 1 0 30%;
   img {
-    position: fixed;
+    position: absolute;
     height: 200px;
     width: 150px;
     top: 90%;
@@ -109,6 +109,7 @@
     flex: 1 0 30%;
 
     img {
+      position: fixed;
       height: 500px;
       width: 250px;
       top: 30%;
