@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { SlSocialFacebook } from "react-icons/sl";
 import styles from "../../styles/Header/Header.module.scss";
+import ButtonLinkDownload from "../Button/ButtonLinkDownload";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -44,18 +43,14 @@ const Header = () => {
             </ul>
           </div>
           <div className={styles.menuSocialsIcons}>
-            <ul>
-              <li
-                className={`${scrollY ? styles.textOrange : styles.textWhite}`}
-              >
-                <AiOutlineInstagram />
-              </li>
-              <li
-                className={`${scrollY ? styles.textOrange : styles.textWhite}`}
-              >
-                <SlSocialFacebook />
-              </li>
-            </ul>
+            <div className={styles.buttonGrid}>
+              <ButtonLinkDownload url="" platform="ios" title="App Store" />
+              <ButtonLinkDownload
+                url=""
+                platform="android"
+                title="Google Play"
+              />
+            </div>
           </div>
         </div>
       </div>

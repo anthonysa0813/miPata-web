@@ -145,12 +145,11 @@
     outline: none;
   }
   button {
-    background-color: var(--bg-dark);
+    background-color: var(--bg-yellow);
     color: var(--bg-white);
     border: none;
     padding: 0.5rem 0.5rem;
-    border-radius: 0.25rem;
-    border: 1px solid var(--bg-gray300);
+    border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1rem;
   }

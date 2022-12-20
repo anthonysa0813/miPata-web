@@ -7,14 +7,12 @@ import styles from "../../styles/OurApp/OurApp.module.scss";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import Image from "next/image";
-import ButtonPrimary from "../Button/ButtonWithIcon";
-import { GrApple } from "react-icons/gr";
 
 const OurAppComponent = () => {
   return (
     <div className={styles.OurAppContainer}>
       <div className={styles.textInfo}>
-        <h2>Nuestra Aplicación</h2>
+        <h2>Nuestra Aplicación </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
           consequuntur? Facilis velit recusandae illo explicabo ut, ratione a
@@ -48,56 +46,46 @@ const OurAppComponent = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <Image
-              src="/images/app.png"
-              alt="Logo de Mi pata"
-              width={250}
-              height={500}
-            />
+            <div className={styles.imageContainer}>
+              <Image
+                src="/images/app1.png"
+                alt="Logo de Mi pata"
+                width={250}
+                height={500}
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src="/images/apphome.jpg"
-              alt="Logo de Mi pata"
-              width={250}
-              height={500}
-            />
+            <div className={styles.imageContainer}>
+              <Image
+                src="/images/app2.png"
+                alt="Logo de Mi pata"
+                width={250}
+                height={500}
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src="/images/apphome_store.jpg"
-              alt="Logo de Mi pata"
-              width={250}
-              height={500}
-            />
+            <div className={styles.imageContainer}>
+              <Image
+                src="/images/app3.png"
+                alt="Logo de Mi pata"
+                width={250}
+                height={500}
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src="/images/appMap.jpg"
-              alt="Logo de Mi pata"
-              width={250}
-              height={500}
-            />
+            <div className={styles.imageContainer}>
+              <Image
+                src="/images/app4.png"
+                alt="Logo de Mi pata"
+                width={250}
+                height={500}
+              />
+            </div>
           </SwiperSlide>
         </Swiper>
-      </div>
-      <div className={styles.socialButtons}>
-        <button>
-          <Image
-            src="/images/appstore.png"
-            alt="Logo de apple store"
-            width={100}
-            height={50}
-          />
-        </button>
-        <button>
-          <Image
-            src="/images/googleplayButton.png"
-            alt="Logo de apple store"
-            width={100}
-            height={30}
-          />
-        </button>
       </div>
     </div>
   );

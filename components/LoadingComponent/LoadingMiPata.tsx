@@ -5,13 +5,15 @@ import styles from "../../styles/LoadingMiPata/LoadingMiPata.module.scss";
 const LoadingMiPata = () => {
   return (
     <div className={styles.container}>
-      <Image
-        alt="Logo de miPata"
-        src="/images/logoBlanco.png"
-        width={100}
-        height={100}
-        className={`animate__animated animate__fadeIn`}
-      />
+      <div className={styles.imageContainer}>
+        <Image
+          alt="Logo de miPata"
+          src="/images/logoBlanco.png"
+          width={125}
+          height={125}
+          className={`animate__animated animate__fadeIn`}
+        />
+      </div>
     </div>
   );
 };
