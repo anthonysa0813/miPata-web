@@ -4,20 +4,20 @@
   // background-image: url("/images/waves/wave.png");
   // background-size: cover;
   // background-repeat: no-repeat;
-
+  margin-block-start: 80px;
   h1 {
     margin: 0;
-    color: var(--bg-dark);
+    color: var(--bg-orange);
     font-size: 32px;
   }
   p {
-    color: var(--bg-gray300);
+    color: var(--bg-dark);
     font-size: 16px;
     span {
       font-weight: bolder;
       font-weight: 700;
       font-size: 1.15rem;
-      color: var(--bg-dark);
+      color: var(--bg-gray200);
     }
   }
 }
@@ -41,10 +41,10 @@
       }
       transition: all 0.3s ease;
       &:hover {
-        color: var(--bg-white);
+        color: var(--bg-orange);
         cursor: pointer;
         p {
-          color: var(--bg-white);
+          color: var(--bg-dark);
         }
       }
     }
@@ -55,51 +55,40 @@
   display: flex;
   // column-gap: 5rem;
   // border: 2px solid brown;
-  padding: 1rem;
-  flex-direction: column;
-  margin-block-start: 80px;
+  // padding: 1rem;
   height: auto;
+  flex-direction: column;
   align-items: center;
   position: relative;
-  background: #fff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #fff,
-    #f7852b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #fff,
-    #f7852b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .imageContent {
   // flex: 1 0 30%;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--bg-orange);
+
   order: 2;
-  background-color: transparent;
+  justify-content: end;
+  // border: 2px solid;
+  align-items: center;
+  padding: 2rem 1rem;
+
   img {
     height: 370px;
-
     object-fit: contain;
   }
 }
 
 .imageContainer {
-  // border: 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
 }
 
 .infoHero {
+  // border: 2px solid brown;
+  padding: 1rem;
   .wrapper {
-    // width: 70%;
     width: 100%;
+    color: var(--bg-white);
   }
 }
 

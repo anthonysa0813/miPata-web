@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useState } from "react";
-import styles from "../../styles/Header/Header.module.scss";
+import styles from "../../styles/Header/Header2.module.scss";
 import ButtonLinkDownload from "../Button/ButtonLinkDownload";
 import Image from "next/image";
 
-const Header = () => {
+const Header2 = () => {
   const [scrollY, setScrollY] = useState(0);
 
   const onScroll = useCallback((event: any) => {
@@ -32,14 +32,17 @@ const Header = () => {
               style={{ fontSize: "3rem" }}
             ></i>
           ) : (
-            <i className="icon-logo " style={{ fontSize: "3rem" }}></i>
+            <i
+              className="icon-logo color-orange "
+              style={{ fontSize: "3rem" }}
+            ></i>
           )}
         </div>
 
         <div className={styles.menuOptions}>
           <ul>
-            <li className={scrollY ? "color-orange" : ""}>BLOG</li>
-            <li className={scrollY ? "color-orange" : ""}>DESCARGA EL APP </li>
+            <li className={"color-orange"}>BLOG</li>
+            <li className={"color-orange"}>DESCARGA EL APP </li>
           </ul>
         </div>
       </div>
@@ -47,4 +50,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
               <p className={styles.contactItem}>
                 <MdEmail />
-                mipata-contact@gmail.com
+                contacto@mipata.pe
               </p>
               <div className={styles.titleBox}>
                 <p>QUICK LINKS </p>

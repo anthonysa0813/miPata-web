@@ -1,0 +1,40 @@
+.testimonialsGrid {
+  display: flex;
+  flex-direction: column;
+  // border: 2px solid brown;
+  align-items: center;
+  margin-block: 4rem;
+  cursor: pointer;
+}
+
+.imageContent {
+  width: 100%;
+}
+
+.cardTestimonials {
+  background-color: white;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  p:nth-child(2) {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imageContent {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .imageContent {
+    width: 50%;
+  }
+}

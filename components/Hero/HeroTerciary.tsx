@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../../styles/Hero/Hero.module.scss";
+import styles from "../../styles/Hero/Hero3.module.scss";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { SlSocialFacebook } from "react-icons/sl";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -10,7 +10,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Hero = () => {
+const Hero3 = () => {
   return (
     <>
       <div className={styles.heroContainer}>
@@ -93,7 +93,7 @@ const Hero = () => {
                 </span>{" "}
                 si nunca tuvo una. Además,<span> administra a tu mascota</span>{" "}
                 , encuentra los mejores <span>lugares pet friendly</span> y{" "}
-                <span> mucho más. </span>
+                mucho más.
               </p>
               <div className={styles.buttonSocials}>
                 <ul>
@@ -123,4 +123,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero3;

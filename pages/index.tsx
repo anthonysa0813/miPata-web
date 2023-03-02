@@ -7,6 +7,7 @@ import LoadingMiPata from "../components/LoadingComponent/LoadingMiPata";
 import OurAppComponent from "../components/OurApp";
 import ServicesMiPata from "../components/ServicesMiPata";
 import Head from "next/head";
+import Testimonials from "../components/Testimonials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -104,8 +105,9 @@ export default function Home() {
         <>
           <Header />
           <Hero />
-          <OurAppComponent />
+          {/* <OurAppComponent /> */}
           <ServicesMiPata />
+          <Testimonials />
           <Footer />
         </>
       )}
