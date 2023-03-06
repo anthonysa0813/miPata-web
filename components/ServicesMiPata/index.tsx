@@ -9,10 +9,7 @@ const ServicesMiPata = () => {
     <>
       <div className="wrapper">
         <div className={styles.services}>
-          <AnimationOnScroll
-            initiallyVisible
-            animateIn="animate__fadeInLeftBig"
-          >
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <div
               className={`${styles.servicesItem} animate__animated animate__fadeInTopLeft`}
             >
@@ -24,7 +21,7 @@ const ServicesMiPata = () => {
               </div>
             </div>
           </AnimationOnScroll>
-          <AnimationOnScroll initiallyVisible animateIn="animate__backInDown">
+          <AnimationOnScroll animateIn="animate__backInDown">
             <div className={styles.servicesItem}>
               <div className={styles.imageContainer}>
                 <i className="icon-facial_recognition"></i>
@@ -34,10 +31,7 @@ const ServicesMiPata = () => {
               </div>
             </div>{" "}
           </AnimationOnScroll>
-          <AnimationOnScroll
-            initiallyVisible
-            animateIn="animate__fadeInRightBig"
-          >
+          <AnimationOnScroll animateIn="animate__fadeInRightBig">
             <div className={styles.servicesItem}>
               <div className={styles.imageContainer}>
                 <i className="icon-community"></i>
@@ -47,10 +41,7 @@ const ServicesMiPata = () => {
               </div>
             </div>{" "}
           </AnimationOnScroll>
-          <AnimationOnScroll
-            initiallyVisible
-            animateIn="animate__fadeInLeftBig"
-          >
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <div className={styles.servicesItem}>
               <div className={styles.imageContainer}>
                 <i className="icon-calendar"></i>
@@ -60,7 +51,7 @@ const ServicesMiPata = () => {
               </div>
             </div>{" "}
           </AnimationOnScroll>
-          <AnimationOnScroll initiallyVisible animateIn="animate__backInUp">
+          <AnimationOnScroll animateIn="animate__backInUp">
             <div className={styles.servicesItem}>
               <div className={styles.imageContainer}>
                 <i className="icon-ranking"></i>
@@ -70,10 +61,7 @@ const ServicesMiPata = () => {
               </div>
             </div>
           </AnimationOnScroll>
-          <AnimationOnScroll
-            initiallyVisible
-            animateIn="animate__fadeInLeftBig"
-          >
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <div className={styles.servicesItem}>
               <div className={styles.imageContainer}>
                 <i className="icon-marketplace"></i>
