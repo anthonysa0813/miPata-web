@@ -1,10 +1,28 @@
+.testimonialsSection {
+  border: 2px solid transparent;
+  // background-image: url("/banner_animals.png");
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
+  background: radial-gradient(#f98e00 15%, transparent 16%),
+    linear-gradient(45deg, transparent 49%, #f98e00 49% 51%, transparent 51%),
+    linear-gradient(-45deg, transparent 49%, #f98e00 49% 51%, transparent 51%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1;
+  margin-block-start: 50px;
+  background-attachment: fixed;
+}
+
 .testimonialsGrid {
   display: flex;
   flex-direction: column;
+  background-color: var(--bg-white);
   // border: 2px solid brown;
   align-items: center;
-  margin-block: 4rem;
+  margin-block: 200px;
   cursor: pointer;
+  background-attachment: fixed;
 }
 
 .imageContent {
@@ -22,6 +40,7 @@
 
 .text {
   text-align: center;
+  font-size: 18px;
   p:nth-child(2) {
     font-weight: bold;
   }

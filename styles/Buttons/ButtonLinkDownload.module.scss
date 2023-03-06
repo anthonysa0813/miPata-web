@@ -1,6 +1,6 @@
 .buttonContainer {
   display: flex;
-
+  margin-block: 30px;
   column-gap: 0.5rem;
   height: 40px;
   background-color: black;
@@ -27,9 +27,11 @@
   .textLight {
     font-size: 0.45rem;
     font-weight: lighter;
+    color: white;
   }
   .textTitle {
     font-size: 0.75rem;
+    color: white;
   }
 }
 

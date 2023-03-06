@@ -9,6 +9,8 @@ import { Pagination, EffectCreative, Autoplay } from "swiper";
 import "swiper/css";
 
 import "swiper/css/pagination";
+import ButtonPrimary from "../Button/ButtonWithIcon";
+import ButtonLinkDownload from "../Button/ButtonLinkDownload";
 
 const Hero3 = () => {
   return (
@@ -86,35 +88,25 @@ const Hero3 = () => {
             className={`${styles.infoHero} animate__animated  animate__bounceInRight`}
           >
             <div className={styles.wrapper}>
-              <h1>La comunidad más grande de mascotas y quienes los amamos.</h1>
-              <p>
-                <span>
-                  Ayudemos a encontrar su regreso a casa o encontrar una nueva
-                </span>{" "}
-                si nunca tuvo una. Además,<span> administra a tu mascota</span>{" "}
-                , encuentra los mejores <span>lugares pet friendly</span> y{" "}
-                mucho más.
-              </p>
-              <div className={styles.buttonSocials}>
-                <ul>
-                  <li
-                    className={`${
-                      scrollY ? styles.textOrange : styles.textWhite
-                    }`}
-                  >
-                    <AiOutlineInstagram />
-                    <p>Instagram</p>
-                  </li>
-                  <li
-                    className={`${
-                      scrollY ? styles.textOrange : styles.textWhite
-                    }`}
-                  >
-                    <SlSocialFacebook />
-                    <p>Facebook</p>
-                  </li>
-                </ul>
-              </div>
+              <AnimationOnScroll
+                initiallyVisible
+                animateIn="animate__fadeInRightBig"
+              >
+                <h1>
+                  La comunidad más grande de mascotas y quienes los amamos.
+                </h1>
+
+                <div className={styles.buttonSocials}>
+                  <ul>
+                    <li>
+                      <ButtonLinkDownload platform={"android"} />
+                    </li>
+                    <li>
+                      <ButtonLinkDownload platform={"ios"} />
+                    </li>
+                  </ul>
+                </div>
+              </AnimationOnScroll>
             </div>
           </div>
         </div>

@@ -1,12 +1,14 @@
 .title {
   text-align: center;
-  margin-block-start: 100px;
 }
 
 .services {
+  margin-block: 150px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 2rem;
+  row-gap: 100px;
+  color: var(--bg-orange);
   .servicesItem {
     // border: 2px solid brown;
     display: flex;
@@ -15,6 +17,10 @@
     justify-content: center;
     text-align: center;
     .imageContainer {
+      i {
+        color: var(--bg-orange);
+        font-size: 6rem;
+      }
       img {
         object-fit: contain;
       }
