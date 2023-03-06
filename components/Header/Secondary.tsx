@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styles from "../../styles/Header/Header2.module.scss";
-import ButtonLinkDownload from "../Button/ButtonLinkDownload";
-import Image from "next/image";
 
 const Header2 = () => {
   const [scrollY, setScrollY] = useState(0);

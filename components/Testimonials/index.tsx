@@ -9,9 +9,9 @@ import { Navigation } from "swiper";
 
 const Testimonials = () => {
   return (
-    <div className={styles.testimonialsSection}>
+    <div className={`${styles.testimonialsSection} bg-fixed  hover:bg-fixed`}>
       <div className="wrapper">
-        <div className={styles.testimonialsGrid}>
+        <div className={`${styles.testimonialsGrid} bg-fixed`}>
           <h2>Testimonios</h2>
           <div className={`${styles.imageContent} animate__animated `}>
             <Swiper
@@ -36,7 +36,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className={styles.text}>
-                    <p>
+                    <p className="text-red-600">
                       &quot;Mi perro se escapó de la casa y pensé que lo había
                       perdido para siempre. Gracias a miPata, pude publicar su
                       foto y ubicación en tiempo real, y alguien lo encontró y

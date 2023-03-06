@@ -107,7 +107,6 @@ export default function Home() {
         <>
           <Header2 />
           <Hero3 />
-          {/* <OurAppComponent /> */}
           <ServicesMiPata />
           <Testimonials />
           <Footer />

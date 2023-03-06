@@ -40,11 +40,11 @@
 }
 
 .menuOptions {
-  // border: 2px solid brown;
   height: 100%;
   ul {
+    // border: 2px solid brown;
     display: flex;
-    column-gap: 2rem;
+    column-gap: 1rem;
     align-items: center;
     justify-content: center;
     // background: yellow;
@@ -96,5 +96,11 @@
   }
   .menuSections {
     display: block;
+  }
+
+  .menuOptions {
+    ul {
+      column-gap: 2rem;
+    }
   }
 }
